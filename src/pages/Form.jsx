@@ -33,7 +33,7 @@ const Form = () => {
 
   return (
     <>
-      <div className="container bg-light mt-5 p-5 shadow rounded-4">
+      <div className="container bg-light shadow mt-5 p-5  rounded-4">
         <h1 className="text-center mb-4 text-primary">🎓 Admission Form</h1>
 
         <form onSubmit={showData}>

@@ -1,12 +1,15 @@
-// import React from "react"
-import StudentForm from "./pages/Form"
+import Header from "./pages/Header";
+import Form from "./pages/form";
+import Footer from "./pages/Footer";
 
-function App(){
-  return(
+function App() {
+  return (
     <>
-    <StudentForm/>
+      <Header />
+      <Form />
+      <Footer />
     </>
-  )
+  );
 }
 
-export default App
+export default App;
